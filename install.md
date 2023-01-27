@@ -18,7 +18,7 @@ conda activate clubcpg
 ```bash
 pip install setuptools==58.0.0  # to be able use 2to3
 pip install --force-reinstall --ignore-installed --no-binary :all: pysam==0.15.4  # to install pysam with arm64 architecture
-pip install .  # to install clubcpg
+pip install git+https://github.com/boileaum/CluBCpG.git  # to install clubcpg
 ```
 
 ## Run tests
@@ -54,5 +54,5 @@ mamba install cython
 ```bash
 pip install setuptools==58.0.0
 pip install --force-reinstall --ignore-installed --no-binary :all: pysam==0.15.4
-pip install .
+pip install git+https://github.com/boileaum/CluBCpG.git  # to install clubcpg
 ```
