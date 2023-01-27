@@ -29,7 +29,7 @@ This must be ok:
 python -m unittest -v clubcpg/tests/test_Module.py
 ```
 
-## How to build conda environment from scratch
+## Note for historical purpose: how to build conda environment from scratch
 
 ### Create empty environment
 
